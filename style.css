@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.head h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+}
+.head nav a {
+    text-decoration: none;
+    padding: 4px;   
+    color: white;
+    font-family:"Quicksand", sans-serif;
+    font-size: 20px;
+}
+@media(max-width: 800px) {
+    .head {
+        flex-direction: column;
+    }
+}
+#background-image {
+    background-image: url(main.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.content {
+    margin-top: 8rem;  
+    text-align: center;  
+}
+.content h1 {
+    text-align: center;
+    font: 80px "Open Sans", sans-serif;
+    color: white;
+}
+.content h2 {
+    text-align: center;
+    font: 40px "Open Sans", sans-serif;
+    color: white;
+}
+.content button {
+    background-color: #3F51B5;
+    border: 0;
+    border-radius: 5px;
+    font: bold 20px "Open Sans", sans-serif;
+    height: 70px;
+    width: 300px;
+    color: white;
+}
+#destination {
+    margin-top: 4rem;
+}
+#destination h1 {
+    text-align: center;
+    font:bold 32px "Open Sans", sans-serif;
+    color: #555555;
+}
+#destination h3 {
+    text-align: center;
+    font:20px "Open Sans", sans-serif;
+    color: #555555;
+}
+#destination hr {
+    margin-left: 36rem;
+    margin-top: 2rem;
+    margin-right: 36rem;
+    height: 3px;
+    background: #3F51B5;
+}
+#photo-grid {
+    padding: 40px;
+    max-width: auto;
+    width: 90%;
+    margin: auto;
+}
+.row-1 {
+    display: flex;
+    gap: 20px;
+}
+.row-1 .img1{
+    height: 350px;
+    width: 30%;
+    object-fit: cover;
+}
+.row-1 .img2{
+    height: 350px;
+    width: 70%;
+    object-fit: cover;
+}
+.row-2 {
+    margin-top: 2rem;
+    display: flex;
+    gap: 20px;
+}
+.row-2 .img1{
+    height: 350px;
+    width: 70%;
+    object-fit: cover;
+}
+.row-2 .img2{
+    height: 350px;
+    width: 30%;
+    object-fit: cover;
+}
+@media(max-width: 800px) {
+    .row-1 {
+        flex-direction: column;
+    }
+    .row-1 .img1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .row-1 .img2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .row-2 {
+        flex-direction: column;
+    }
+    .row-2 .img1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .row-2 .img2{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+#tour-package {
+    margin-top: 8rem;
+    padding: 40px;
+    background-color: #F5F5F5;
+    height: auto;
+}
+.content-2 h1 {
+    text-align: center;
+    font:bold 38px "Open Sans", sans-serif;
+    color: #555555;
+}
+.content-2 h2 {
+    text-align: center;
+    font:22px "Open Sans", sans-serif;
+    color: #555555;
+}
+
+.content-2 hr {
+    margin-left: 36rem;
+    margin-top: 2rem;
+    margin-right: 36rem;
+    height: 3px;
+    background: #3F51B5;
+}
+.options {
+    padding: 100px;
+}
+.row-1 {
+    align-items: center;
+    text-align: center;
+}
+.row-2 {
+    align-items: center;
+    text-align: center;
+}
+.sub-option1 h1 {
+    font:bold 38px "Open Sans", sans-serif;
+    color: #555555;
+}
+.sub-option1 h2{
+    font:22px "Open Sans", sans-serif;
+    color: #555555;
+}
+.sub-option2 h1 {
+    font:bold 38px "Open Sans", sans-serif;
+    color: #555555;
+}
+.sub-option2 h2{
+    font:22px "Open Sans", sans-serif;
+    color: #555555;
+}
+#testimonials h1{
+    padding: 40px;
+    text-align: center;
+    font:bold 40px "Open Sans", sans-serif;
+    color: #555555;
+}
+#testimonials hr{
+    margin-left: 36rem;
+    margin-top: 2rem;
+    margin-right: 36rem;
+    height: 3px;
+    background: #3F51B5;
+}
+.review {
+    text-align: center;
+    padding: 20px 200px;
+    font:30px "Open Sans", sans-serif;
+    color: #555555;
+}
+.name {
+    text-align: center;
+    font:20px "Open Sans", sans-serif;
+    color: #555555;
+}
+@media(max-width: 800px) {
+    .review{
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+#extras {
+    margin-top: 8rem;
+    padding: 40px;
+    background-color: #F5F5F5;
+    height: auto;
+}
+#extras h1 {
+    text-align: center;
+    font:bold 38px "Open Sans", sans-serif;
+    color: #555555;
+}
+#extras p{
+    padding: 10px 100px;
+    text-align: center;
+    font:22px "Open Sans", sans-serif;
+    color: #555555;
+}
+#extras hr{
+    margin-left: 36rem;
+    margin-top: 2rem;
+    margin-right: 36rem;
+    height: 3px;
+    background: #3F51B5;
+    align-items: center;
+}
+.subscription{
+    margin-top: 3rem;
+    max-width: auto;
+    width: 90%; 
+    display: flex;
+    gap: 15px;
+}
+.subscription input{
+    margin-left: 400px;
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+.subscription input::placeholder{
+    font-size: 20px;
+}
+.subscription button{
+    align-items: center;
+    height: 65px;
+    width: 20%;
+    background-color: #3F51B5;
+    color: white;
+    font: bold 20px "Open Sans", sans-serif;
+    border: 0;
+    border-radius: 5px;
+}
+@media(max-width: 800px) {
+    #extras p{
+        font-size: 20px;
+        padding: 20px 40px;
+    }
+}
+@media(max-width: 800px) {
+    .subscription{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .subscription input{
+        width: 70%;
+        font-size: 20px;
+        margin: auto;
+    }
+    .subscription button{
+        height: 50px;
+        width: 60%;
+        margin: auto;
+    }
+}
+#foot{  
+    padding: 15px;
+    background-color: #607D8B;
+    display: flex;
+    gap: 100px;
+}
+#foot p{
+    font:18px "Open Sans", sans-serif;
+    color: gainsboro;
+}
+@media(max-width: 800px) {
+    #foot{
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
